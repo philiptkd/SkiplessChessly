@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C472E6702D1BD60300B1F3B8 /* SkiplessChessly Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C472E66F2D1BD60300B1F3B8 /* SkiplessChessly Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C472E67A2D1BD60300B1F3B8 /* SkiplessChessly Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C472E6792D1BD60300B1F3B8 /* SkiplessChessly Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C472E6712D1BD60300B1F3B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C472E6352D1BD60200B1F3B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C472E66E2D1BD60300B1F3B8;
+			remoteInfo = "SkiplessChessly Extension (iOS)";
+		};
+		C472E67B2D1BD60300B1F3B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C472E6352D1BD60200B1F3B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C472E6782D1BD60300B1F3B8;
+			remoteInfo = "SkiplessChessly Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C472E6A32D1BD60300B1F3B8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C472E6702D1BD60300B1F3B8 /* SkiplessChessly Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C472E6AD2D1BD60300B1F3B8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C472E67A2D1BD60300B1F3B8 /* SkiplessChessly Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C472E6512D1BD60300B1F3B8 /* SkiplessChessly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkiplessChessly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C472E6632D1BD60300B1F3B8 /* SkiplessChessly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkiplessChessly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C472E66F2D1BD60300B1F3B8 /* SkiplessChessly Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SkiplessChessly Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C472E6792D1BD60300B1F3B8 /* SkiplessChessly Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SkiplessChessly Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C472E69E2D1BD60300B1F3B8 /* Exceptions for "Shared (App)" folder in "SkiplessChessly (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Main.html",
+				Assets.xcassets,
+				Resources/Icon.png,
+				Resources/Script.js,
+				Resources/Style.css,
+				ViewController.swift,
+			);
+			target = C472E6502D1BD60300B1F3B8 /* SkiplessChessly (iOS) */;
+		};
+		C472E6A22D1BD60300B1F3B8 /* Exceptions for "iOS (Extension)" folder in "SkiplessChessly Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C472E66E2D1BD60300B1F3B8 /* SkiplessChessly Extension (iOS) */;
+		};
+		C472E6A72D1BD60300B1F3B8 /* Exceptions for "iOS (App)" folder in "SkiplessChessly (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C472E6502D1BD60300B1F3B8 /* SkiplessChessly (iOS) */;
+		};
+		C472E6A82D1BD60300B1F3B8 /* Exceptions for "Shared (App)" folder in "SkiplessChessly (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"/Localized: Resources/Main.html",
+				Assets.xcassets,
+				Resources/Icon.png,
+				Resources/Script.js,
+				Resources/Style.css,
+				ViewController.swift,
+			);
+			target = C472E6622D1BD60300B1F3B8 /* SkiplessChessly (macOS) */;
+		};
+		C472E6AC2D1BD60300B1F3B8 /* Exceptions for "macOS (Extension)" folder in "SkiplessChessly Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C472E6782D1BD60300B1F3B8 /* SkiplessChessly Extension (macOS) */;
+		};
+		C472E6B12D1BD60300B1F3B8 /* Exceptions for "Shared (Extension)" folder in "SkiplessChessly Extension (iOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/_locales,
+				Resources/background.js,
+				Resources/content.js,
+				Resources/images,
+				Resources/manifest.json,
+				Resources/popup.css,
+				Resources/popup.html,
+				Resources/popup.js,
+				SafariWebExtensionHandler.swift,
+			);
+			target = C472E66E2D1BD60300B1F3B8 /* SkiplessChessly Extension (iOS) */;
+		};
+		C472E6B22D1BD60300B1F3B8 /* Exceptions for "Shared (Extension)" folder in "SkiplessChessly Extension (macOS)" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Resources/_locales,
+				Resources/background.js,
+				Resources/content.js,
+				Resources/images,
+				Resources/manifest.json,
+				Resources/popup.css,
+				Resources/popup.html,
+				Resources/popup.js,
+				SafariWebExtensionHandler.swift,
+			);
+			target = C472E6782D1BD60300B1F3B8 /* SkiplessChessly Extension (macOS) */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C472E6392D1BD60200B1F3B8 /* Shared (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C472E69E2D1BD60300B1F3B8 /* Exceptions for "Shared (App)" folder in "SkiplessChessly (iOS)" target */,
+				C472E6A82D1BD60300B1F3B8 /* Exceptions for "Shared (App)" folder in "SkiplessChessly (macOS)" target */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		C472E6422D1BD60300B1F3B8 /* Shared (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C472E6B12D1BD60300B1F3B8 /* Exceptions for "Shared (Extension)" folder in "SkiplessChessly Extension (iOS)" target */,
+				C472E6B22D1BD60300B1F3B8 /* Exceptions for "Shared (Extension)" folder in "SkiplessChessly Extension (macOS)" target */,
+			);
+			explicitFolders = (
+				Resources/_locales,
+				Resources/images,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		C472E6532D1BD60300B1F3B8 /* iOS (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C472E6A72D1BD60300B1F3B8 /* Exceptions for "iOS (App)" folder in "SkiplessChessly (iOS)" target */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		C472E6642D1BD60300B1F3B8 /* macOS (App) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		C472E6732D1BD60300B1F3B8 /* iOS (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C472E6A22D1BD60300B1F3B8 /* Exceptions for "iOS (Extension)" folder in "SkiplessChessly Extension (iOS)" target */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		C472E67D2D1BD60300B1F3B8 /* macOS (Extension) */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C472E6AC2D1BD60300B1F3B8 /* Exceptions for "macOS (Extension)" folder in "SkiplessChessly Extension (macOS)" target */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C472E64E2D1BD60300B1F3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C472E6602D1BD60300B1F3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C472E66C2D1BD60300B1F3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C472E6762D1BD60300B1F3B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C472E6342D1BD60200B1F3B8 = {
+			isa = PBXGroup;
+			children = (
+				C472E6392D1BD60200B1F3B8 /* Shared (App) */,
+				C472E6422D1BD60300B1F3B8 /* Shared (Extension) */,
+				C472E6532D1BD60300B1F3B8 /* iOS (App) */,
+				C472E6642D1BD60300B1F3B8 /* macOS (App) */,
+				C472E6732D1BD60300B1F3B8 /* iOS (Extension) */,
+				C472E67D2D1BD60300B1F3B8 /* macOS (Extension) */,
+				C472E6522D1BD60300B1F3B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C472E6522D1BD60300B1F3B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C472E6512D1BD60300B1F3B8 /* SkiplessChessly.app */,
+				C472E6632D1BD60300B1F3B8 /* SkiplessChessly.app */,
+				C472E66F2D1BD60300B1F3B8 /* SkiplessChessly Extension.appex */,
+				C472E6792D1BD60300B1F3B8 /* SkiplessChessly Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C472E6502D1BD60300B1F3B8 /* SkiplessChessly (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C472E6A42D1BD60300B1F3B8 /* Build configuration list for PBXNativeTarget "SkiplessChessly (iOS)" */;
+			buildPhases = (
+				C472E64D2D1BD60300B1F3B8 /* Sources */,
+				C472E64E2D1BD60300B1F3B8 /* Frameworks */,
+				C472E64F2D1BD60300B1F3B8 /* Resources */,
+				C472E6A32D1BD60300B1F3B8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C472E6722D1BD60300B1F3B8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C472E6532D1BD60300B1F3B8 /* iOS (App) */,
+			);
+			name = "SkiplessChessly (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "SkiplessChessly (iOS)";
+			productReference = C472E6512D1BD60300B1F3B8 /* SkiplessChessly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C472E6622D1BD60300B1F3B8 /* SkiplessChessly (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C472E6AE2D1BD60300B1F3B8 /* Build configuration list for PBXNativeTarget "SkiplessChessly (macOS)" */;
+			buildPhases = (
+				C472E65F2D1BD60300B1F3B8 /* Sources */,
+				C472E6602D1BD60300B1F3B8 /* Frameworks */,
+				C472E6612D1BD60300B1F3B8 /* Resources */,
+				C472E6AD2D1BD60300B1F3B8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C472E67C2D1BD60300B1F3B8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C472E6642D1BD60300B1F3B8 /* macOS (App) */,
+			);
+			name = "SkiplessChessly (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "SkiplessChessly (macOS)";
+			productReference = C472E6632D1BD60300B1F3B8 /* SkiplessChessly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C472E66E2D1BD60300B1F3B8 /* SkiplessChessly Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C472E69F2D1BD60300B1F3B8 /* Build configuration list for PBXNativeTarget "SkiplessChessly Extension (iOS)" */;
+			buildPhases = (
+				C472E66B2D1BD60300B1F3B8 /* Sources */,
+				C472E66C2D1BD60300B1F3B8 /* Frameworks */,
+				C472E66D2D1BD60300B1F3B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C472E6732D1BD60300B1F3B8 /* iOS (Extension) */,
+			);
+			name = "SkiplessChessly Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "SkiplessChessly Extension (iOS)";
+			productReference = C472E66F2D1BD60300B1F3B8 /* SkiplessChessly Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		C472E6782D1BD60300B1F3B8 /* SkiplessChessly Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C472E6A92D1BD60300B1F3B8 /* Build configuration list for PBXNativeTarget "SkiplessChessly Extension (macOS)" */;
+			buildPhases = (
+				C472E6752D1BD60300B1F3B8 /* Sources */,
+				C472E6762D1BD60300B1F3B8 /* Frameworks */,
+				C472E6772D1BD60300B1F3B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C472E67D2D1BD60300B1F3B8 /* macOS (Extension) */,
+			);
+			name = "SkiplessChessly Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "SkiplessChessly Extension (macOS)";
+			productReference = C472E6792D1BD60300B1F3B8 /* SkiplessChessly Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C472E6352D1BD60200B1F3B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C472E6502D1BD60300B1F3B8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C472E6622D1BD60300B1F3B8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C472E66E2D1BD60300B1F3B8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					C472E6782D1BD60300B1F3B8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = C472E6382D1BD60200B1F3B8 /* Build configuration list for PBXProject "SkiplessChessly" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C472E6342D1BD60200B1F3B8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C472E6522D1BD60300B1F3B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C472E6502D1BD60300B1F3B8 /* SkiplessChessly (iOS) */,
+				C472E6622D1BD60300B1F3B8 /* SkiplessChessly (macOS) */,
+				C472E66E2D1BD60300B1F3B8 /* SkiplessChessly Extension (iOS) */,
+				C472E6782D1BD60300B1F3B8 /* SkiplessChessly Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C472E64F2D1BD60300B1F3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C472E6612D1BD60300B1F3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C472E66D2D1BD60300B1F3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C472E6772D1BD60300B1F3B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C472E64D2D1BD60300B1F3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C472E65F2D1BD60300B1F3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C472E66B2D1BD60300B1F3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C472E6752D1BD60300B1F3B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C472E6722D1BD60300B1F3B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C472E66E2D1BD60300B1F3B8 /* SkiplessChessly Extension (iOS) */;
+			targetProxy = C472E6712D1BD60300B1F3B8 /* PBXContainerItemProxy */;
+		};
+		C472E67C2D1BD60300B1F3B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C472E6782D1BD60300B1F3B8 /* SkiplessChessly Extension (macOS) */;
+			targetProxy = C472E67B2D1BD60300B1F3B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C472E6A02D1BD60300B1F3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82FX2242YA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SkiplessChessly Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raeis-software.SkiplessChessly.Extension";
+				PRODUCT_NAME = "SkiplessChessly Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C472E6A12D1BD60300B1F3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82FX2242YA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SkiplessChessly Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raeis-software.SkiplessChessly.Extension";
+				PRODUCT_NAME = "SkiplessChessly Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C472E6A52D1BD60300B1F3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82FX2242YA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SkiplessChessly;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raeis-software.SkiplessChessly";
+				PRODUCT_NAME = SkiplessChessly;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C472E6A62D1BD60300B1F3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82FX2242YA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = SkiplessChessly;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raeis-software.SkiplessChessly";
+				PRODUCT_NAME = SkiplessChessly;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C472E6AA2D1BD60300B1F3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SkiplessChessly.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82FX2242YA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SkiplessChessly Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raeis-software.SkiplessChessly.Extension";
+				PRODUCT_NAME = "SkiplessChessly Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C472E6AB2D1BD60300B1F3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/SkiplessChessly.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82FX2242YA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SkiplessChessly Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raeis-software.SkiplessChessly.Extension";
+				PRODUCT_NAME = "SkiplessChessly Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C472E6AF2D1BD60300B1F3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SkiplessChessly.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82FX2242YA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SkiplessChessly;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raeis-software.SkiplessChessly";
+				PRODUCT_NAME = SkiplessChessly;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C472E6B02D1BD60300B1F3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/SkiplessChessly.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 82FX2242YA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SkiplessChessly;
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raeis-software.SkiplessChessly";
+				PRODUCT_NAME = SkiplessChessly;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C472E6B32D1BD60300B1F3B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C472E6B42D1BD60300B1F3B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C472E6382D1BD60200B1F3B8 /* Build configuration list for PBXProject "SkiplessChessly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C472E6B32D1BD60300B1F3B8 /* Debug */,
+				C472E6B42D1BD60300B1F3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C472E69F2D1BD60300B1F3B8 /* Build configuration list for PBXNativeTarget "SkiplessChessly Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C472E6A02D1BD60300B1F3B8 /* Debug */,
+				C472E6A12D1BD60300B1F3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C472E6A42D1BD60300B1F3B8 /* Build configuration list for PBXNativeTarget "SkiplessChessly (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C472E6A52D1BD60300B1F3B8 /* Debug */,
+				C472E6A62D1BD60300B1F3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C472E6A92D1BD60300B1F3B8 /* Build configuration list for PBXNativeTarget "SkiplessChessly Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C472E6AA2D1BD60300B1F3B8 /* Debug */,
+				C472E6AB2D1BD60300B1F3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C472E6AE2D1BD60300B1F3B8 /* Build configuration list for PBXNativeTarget "SkiplessChessly (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C472E6AF2D1BD60300B1F3B8 /* Debug */,
+				C472E6B02D1BD60300B1F3B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C472E6352D1BD60200B1F3B8 /* Project object */;
+}
