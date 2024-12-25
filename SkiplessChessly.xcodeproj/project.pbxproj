@@ -110,13 +110,9 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/_locales,
-				Resources/background.js,
 				Resources/content.js,
 				Resources/images,
 				Resources/manifest.json,
-				Resources/popup.css,
-				Resources/popup.html,
-				Resources/popup.js,
 				SafariWebExtensionHandler.swift,
 			);
 			target = C472E66E2D1BD60300B1F3B8 /* SkiplessChessly Extension (iOS) */;
@@ -125,13 +121,9 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/_locales,
-				Resources/background.js,
 				Resources/content.js,
 				Resources/images,
 				Resources/manifest.json,
-				Resources/popup.css,
-				Resources/popup.html,
-				Resources/popup.js,
 				SafariWebExtensionHandler.swift,
 			);
 			target = C472E6782D1BD60300B1F3B8 /* SkiplessChessly Extension (macOS) */;
